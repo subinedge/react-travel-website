@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Blog from './pages/Blog'
 import Destination from './pages/Destination'
 import About from './pages/About'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/destination" component={Destination} />
           <Route path="/about" component={About} />
         </Switch>
+        <Footer />
       </Router>
     </>
   )

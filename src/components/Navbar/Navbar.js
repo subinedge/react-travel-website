@@ -54,7 +54,7 @@ function Navbar() {
             </li>
 
             <li className="navbar-item">
-              <Link to="/destinations" className="navbar-link">
+              <Link to="/destination" className="navbar-link">
                 Destinations
               </Link>
             </li>

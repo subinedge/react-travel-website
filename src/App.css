@@ -1,0 +1,37 @@
+.home,
+.blog,
+.destination,
+.about {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.blog {
+  /* background-image: url('/assets/images/img-2.jpg'); */
+  /* background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.destination {
+  /* background-image: url('/assets/images/img-1.jpg'); */
+  /* background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat; */
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.about {
+  /* background-image: url('/assets/images/img-8.jpg'); */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
